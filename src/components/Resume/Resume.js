@@ -46,57 +46,18 @@ function Resume() {
               date="Jan 2020 - August 2020"
               content={[
                 "I am a web developer and I always do web development work very efficiently and with mindfulness. I always finish the work within the specified time",
-                // " Utilized the data to find the issues using Topic Modelling and Building models using LSTM, BERT to predict the sentiments of the youth.",
               ]}
             />
-            {/* <h3 className="resume-title">Extracurricular Activities</h3>
-            <Resumecontent
-              title="Web Developer [Pantheon-2019 Technical Fest of BIT Mesra]"
-              content={[
-                "Worked on creating the frontend-end of the website using Bootstrap, Javascript.",
-              ]}
-            /> */}
-            {/* <Resumecontent
-              title="Web Developer [Bitotsav-2020 Technical Fest of BIT Mesra]"
-              content={[
-                "Operated on developing the frontend end of the website using Bootstrap, Javascript and backend APIs using Node.js",
-              ]}
-            /> */}
           </Col>
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
-            {/* <Resumecontent
-              title="IMSC MATHS AND COMPUTING [BIT Mesra, Ranchi] "
-              date="2018 - Present"
-              content={[`CGPA: ${cgpa} (Till ${sem}th Sem)`]}
-            /> */}
             <Resumecontent
               title="Tangail Polytechnic Institute"
               date="2018 - 2021"
               content={["Precentage: 88%"]}
             />
-            {/* <Resumecontent
-              title="10TH BOARD [ST Mary's School,Odisha] "
-              date="2005 - 2015"
-              content={["Precentage: 86%"]}
-            /> */}
-            {/* <h3 className="resume-title">Ranks and Achivements</h3>
-            <Resumecontent
-              title=""
-              content={[
-                `Current rank in Spoj ${spojRank}`,
-                `Current rank in HackerRank  ${hackerrank}`,
-                "Top Performer in Code-Break 1.0",
-                "Participant in Hack-A-Bit 2019",
-              ]}
-            /> */}
           </Col>
         </Row>
-        {/* <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button variant="primary" href={pdf} download target="_blank">
-            <i className="fas fa-download">&nbsp;</i>Download Resume
-          </Button>
-        </Row> */}
       </Container>
     </Container>
   );
